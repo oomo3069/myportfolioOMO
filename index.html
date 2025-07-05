@@ -1,89 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Artsy Portfolio</title>
+  <title>Phunphet Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="../img/briefcase.png" type="image/x-icon">
   <style>
-    
+
   </style>
 </head>
+
 <body>
-    <div class="blob"></div>
-    <div class="blob"></div>
-  
-    <nav class="navbar">
-      <div class="logo">My Portfolio</div>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  
-    <section class="hero">
-      <div>
-        <h1>Hello, My name is Phunphet</h1>
-        <p>Welcome to my web portfolio — 
-          For storing works.</p>
-      </div>
-    </section>
-  
-    <section class="portfolio-section">
-      <h2 class="portfolio-title">My Works</h2>
-  <p > *หมายเหตุ เว็บนี้อยู่ระหว่างพัฒนา .</p>
-      <div class="portfolio-box">
-        <img src="mo1.png" alt="Artwork 1">
-        <div class="portfolio-text">
-          <h3>Frontend</h3>
-          <p>ส่วนหน้าบ้านสำหรับเว็บนำเสนอร้าน React + Vite + Typescript .</p>
-        </div>
-      </div>
-  
-      <div class="portfolio-box">
-        <img src="mo5.png" alt="Artwork 2">
-        <div class="portfolio-text">
-          <h3>Backend</h3>
-          <p>ทำระบบสมัครสมาชิกให้ใช้กับหน้าบ้านโดย Node.js + Express , TypeScript , PostgreSQL , jsonwebtoken(JWT) , CORS Middleware .</p>
-        </div>
-      </div>
+  <div class="blob"></div>
+  <div class="blob"></div>
 
-      <div class="portfolio-box">
-        <img src="mo4.png" alt="Artwork 2">
-        <div class="portfolio-text">
-          <h3>Yolov11s Train Model</h3>
-          <p>เป็นการเทรนโมเดล Yolov11s เพื่อให้ได้โมเดลที่มีประสิทธิภาพ และนำไปใช้กับโปรแกรมตรวจจับ</p>
-        </div>
-      </div>
+  <nav class="navbar">
+    <div class="logo">Phunphet Onbueng</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="pages/portfolio.html">Portfolio</a></li>
+      <li><a href="pages/about.html">About</a></li>
+      <li><a href="pages/contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-      <div class="portfolio-box">
-        <img src="mo3.png" alt="Artwork 2">
-        <div class="portfolio-text">
-          <h3>Car Parking Detection</h3>
-          <p>โปรแกรมตรวจจับรถในสถานที่จอดรถโดยกำหนดกรอบที่เป็นช่องจอดเพื่อส่งข้อมูลไปว่าว่างหรือไม่ว่าง โดยใช้ yolov11 ที่ผ่านการเทรน และ openCV.</p>
-        </div>
-      </div>
+  <section class="hero">
+    <div class = "imgme">
+      <img src="img/me.jpg"></div>
+    <div>
+      <h1>Hello, My name is Phunphet</h1>
+      <p>Welcome to my web portfolio —
+        For storing works.</p>
+    </div>
+    <div  class="scroll-down">
+      <p>MY PROJECT EXAMPLE</p>
+      <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#e3e3e3"><path d="M480-200 240-440l42-42 198 198 198-198 42 42-240 240Zm0-253L240-693l42-42 198 198 198-198 42 42-240 240Z"/></svg>
+    </div>
+  </section>
 
-      <div class="portfolio-box">
-        <img src="mo2.png" alt="Artwork 2">
-        <div class="portfolio-text">
-          <h3>Floppy Bird AI genetic algorithm </h3>
-          <p>โปรเจควิชา AI 2คน เกี่ยวกับการใช้ AI ช่วยในการเล่นเกม Floppy Bird ให้ได้คะเเนนสูงโดยตัวนกนั้นจะมีการตัดสินใจโดยใช้กระบวนการ CNN นอกจากนี้ยังมี
-            การใช้ activation ในการเเปลงค่าเพื่อให้ออกมาเป็นค่าความน่าจะเป็นในการตัดสินใจ.</p>
-        </div>
+  <section class="portfolio-section">
+    
+    <div class="portfolio-box">
+      <img src="img/mo1.png" alt="work 1">
+      <div class="portfolio-text">
+        <h3>MKSERVICE Frontend</h3>
+        <p>Made to present a website for a car door repair shop. </p>
+        <p>React + Vite + Typescript .<a href="https://mkservice-tpr.vercel.app/" style="text-decoration: none;font-weight: 700; color: rgb(157, 22, 22);"> Click Here</a></p>
+        
       </div>
-  
-    </section>
+    </div>
 
-    <footer>
-      <div class="social-icons">
-        <a href="https://github.com/oomo3069" target="_blank"><i class="fab fa-github" ><img src="icons8-github-48.png"></i></a>
-        <a href="https://www.facebook.com/pponb2003/" target="_blank"><i class="fab fa-facebook"><img src="icons8-facebook-50.png"></i></a>
+    <div class="portfolio-box">
+      <img src="img/mo5.png" alt="work 2">
+      <div class="portfolio-text">
+        <h3>MKSERVICE Backend</h3>
+        <p>Make a membership registration system available for use on Frontend 
+          by Node.js + Express , TypeScript , PostgreSQL , jsonwebtoken(JWT) , CORS
+          Middleware .</p>
       </div>
-      <p>&copy; 2025 Phunphet. All rights reserved.</p>
-    </footer>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="img/mo4.png" alt="work 3">
+      <div class="portfolio-text">
+        <h3>YOLOv11s supervised learning</h3>
+        <p>It is a training of Yolov11s model to get an efficient model and apply it to the detection program.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="img/mo3.png" alt="work 4">
+      <div class="portfolio-text">
+        <h3>Car Parking Detection</h3>
+        <p>
+A program to detect cars in a parking lot by specifying a frame that is a parking space to send information 
+whether it is vacant or not, using trained Yolov11 and openCV.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="img/mo2.png" alt="work 5">
+      <div class="portfolio-text">
+        <h3>Floppy Bird AI genetic algorithm </h3>
+        <p>AI project by 2 people about using AI to help play Floppy Bird game to get high score by the bird will make decision by using CNN process. In addition, 
+          use activation to convert value to get probability value in decision.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="img/pp.png" alt="work 6">
+      <div class="portfolio-text">
+        <h3>Capstone Project</h3>
+        <p>
+         This Project is Car parking Management System with Website by React + Vite + Typescript for Frontend and Bun , TypeScript , PostgreSQL , jsonwebtoken(JWT) , CORS Middleware for Backend.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="social-icons">
+      <a href="https://github.com/oomo3069" target="_blank"><i class="fab fa-github"><img
+            src="img/icons8-github-48.png"></i></a>
+      <a href="https://www.facebook.com/pponb2003/" target="_blank"><i class="fab fa-facebook"><img
+            src="img/icons8-facebook-50.png"></i></a>
+    </div>
+    <p>&copy; 2025 Phunphet. All rights reserved.</p>
+  </footer>
+  <script src="script.js">
+  </script>
 </body>
+
 </html>
